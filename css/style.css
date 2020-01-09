@@ -24,28 +24,25 @@ body {
   background-size: cover;
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
-
-.header__nav-div {
-  position: absolute;
-  /* top: 10%;
-   left: 50%;
-   transform: translate(-50%, -50%); */
-  top: 10%;
-  left: 29%;
-  display: inline;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  animation: moveInDown 1.5s ease-in; }
-
-.header__nav-div-li {
-  display: inline;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  font-size: 1.5rem; }
-
-.header__nav-div-li-a {
-  color: #020202;
-  text-decoration: none; }
+  .header__nav-div {
+    position: absolute;
+    /* top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%); */
+    top: 10%;
+    left: 29%;
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    animation: moveInDown 1.5s ease-in; }
+  .header__nav-div-li {
+    display: inline;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-size: 1.5rem; }
+  .header__nav-div-li-a {
+    color: #020202;
+    text-decoration: none; }
 
 .text-box {
   /* position:absolute;
