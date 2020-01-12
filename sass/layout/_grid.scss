@@ -1,6 +1,5 @@
 .row {
     max-width: $grid-width;
-    background-color: lightgrey;
     margin: 0 auto;
     
     &:not(:last-child) {
@@ -16,7 +15,6 @@
     // so start with, contain in, end with
 
     [class^="col-"] {
-        background-color: orangered;
         float: left;
 
         &:not(:last-child){
