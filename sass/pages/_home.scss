@@ -6,9 +6,18 @@
 
 .section-features {
     padding: 20rem 0;
-    background-image: linear-gradient(to right bottom,
-                     rgba($color-primary-light, 0.9),
-                     rgba($color-primary-dark, 0.781)), 
-                     url("../img/whitescreen.jpg");
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-primary-light, 0.9),
+                    rgba($color-primary-dark, 0.95)), 
+                    url("../img/abstract.jpg");
     background-size: cover;
+    transform: skewY(-7.125deg);
+
+    margin-top: -10rem;
+    
+
+    & > * {
+        transform: skewY(7.125deg);
+    }
 }

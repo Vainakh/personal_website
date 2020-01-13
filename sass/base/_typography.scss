@@ -76,14 +76,14 @@ body {
     transition: all .2s;
 
     &:hover {
-        // background-color: $color-primary-dark;
-        color: $color-white;
-        box-shadow: 0 1rem 2rem rgba($color-black, .15);
-        transform: translateY(-1rem);
-        transform: scale(1.1);
-        text-shadow: .5rem 1.5rem 2.5rem rgba($color-black,.3);
-        -webkit-background-clip: text;
-        display: inline-block;
+        // // background-color: $color-primary-dark;
+        // // color: $color-white;
+        // // box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        // transform: translateY(-1rem);
+        // transform: scale(1.1);
+        // text-shadow: .5rem 1.5rem 2.5rem rgba($color-black,.3);
+        // // -webkit-background-clip: text;
+        // display: inline-block;
         
     }
 
