@@ -164,7 +164,7 @@ body {
       border: solid .1rem black;
       box-decoration-break: clone; }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, rgba(211, 208, 193, 0.781), #777); }
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -211,6 +211,23 @@ body {
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid rgba(211, 208, 193, 0.781); }
   .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .card__price-box {
+    text-align: center;
+    color: #020202;
+    margin-bottom: 8rem; }
+  .card__price-only {
+    font-size: 1.4rem;
+    text-transform: uppercase; }
+  .card__price-value {
+    font-size: 6rem;
+    font-weight: 100; }
+  .card .image_git {
+    transform: scale(0.5);
+    top: 20rem;
     position: absolute;
     top: 50%;
     left: 50%;
