@@ -161,7 +161,7 @@ body {
   perspective: 150rem;
   position: relative;
   height: 52rem;
-  margin-left: 90px;
+  margin-left: 116px;
   display: block; }
   .card__side {
     height: 52rem;
@@ -311,7 +311,23 @@ body {
   background-color: white;
   border-radius: 3px;
   padding: 6rem;
-  font-size: 1.6rem; }
+  padding-left: 9rem;
+  font-size: 1.6rem;
+  transform: skewX(-12deg); }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    transform: skewX(12deg);
+    position: absolute; }
+  .story__img {
+    height: 100%; }
+  .story__text {
+    transform: skewX(12deg); }
+  .story__caption {
+    position: relative; }
 
 .row {
   max-width: 114rem;
