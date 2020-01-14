@@ -139,6 +139,18 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(2, 2, 2, 0.15);
   transform: translateY(0); }
 
+.btn-text__white {
+  background-color: white;
+  color: #777; }
+  .btn-text__white::after {
+    background-color: white; }
+
+.btn-text__green {
+  background-color: rgba(63, 62, 59, 0.781);
+  color: #777; }
+  .btn-text__green::after {
+    background-color: rgba(63, 62, 59, 0.781); }
+
 .card {
   perspective: 150rem;
   position: relative;
