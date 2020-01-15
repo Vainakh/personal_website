@@ -1,6 +1,6 @@
 .feature-box {
 
-    background-color: rgba($color-white, 0.8);
+    background-color: rgba($color-tertiary-light, 0.8);
     font-size: 1.5rem;
     padding: 2.5rem;
     text-align: center;
@@ -14,7 +14,7 @@
         margin-bottom: .5rem;
 
         display: inline-block;
-        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -26,6 +26,8 @@
     }
 
     &__text {
-
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
     }
 }

@@ -1,8 +1,35 @@
+// .section-stories {
+
+//     background-size: cover;
+//     clip-path: polygon(0 75vh,100% 0, 100% 100%, 0 100%);
+//     padding: 15rem;
+
+
+//     background-image: linear-gradient(
+//                     to right bottom,
+//                     rgba($color-white, 0.9),
+//                     rgba($color-white, 0.95)), 
+//                     url("../img/abstract.jpg");
+//     background-size: cover;
+//     clip-path: polygon(0 25%,100% 0, 100% 100%, 0 100%);
+// }
+
+
+
+
 .story {
     width: 75%;
     margin: 0 auto;
-    box-shadow: 0 3rem 6rem rgba($color-black, .1);
-    background-color: $color-grey-light;
+    box-shadow: 3 5rem 8rem rgba($color-black, .1);
+    
+    background-image: linear-gradient(
+                    to right bottom,
+                    rgba($color-secondary-light, 0.7),
+                    rgba($color-secondary-dark, 0.85)), 
+                    url("../img/abstract.jpg");
+    background-size: cover;
+    clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
+
     border-radius: 3px;
     padding: 6rem;
     padding-left: 9rem;
