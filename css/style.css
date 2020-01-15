@@ -285,7 +285,7 @@ body {
     transform: scale(0.9); }
 
 .feature-box {
-  background-color: rgba(41, 152, 255, 0.8);
+  background-color: rgba(2, 2, 2, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
   text-align: center;
@@ -430,7 +430,7 @@ body {
   position: relative;
   padding: 15rem 0;
   background-color: white;
-  background-image: linear-gradient(to right bottom, rgba(211, 208, 193, 0.9), rgba(63, 62, 59, 0.95)), url("../img/abstract.jpg");
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.7), rgba(86, 67, 250, 0.85)), url("../img/abstract.jpg");
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   margin-top: -40rem; }
