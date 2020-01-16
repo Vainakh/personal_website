@@ -32,6 +32,10 @@ body {
         color: $color-secondary-dark;
         text-transform: uppercase;
 
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+
         &--main {
         display:block;
         font-size: 3.9rem;
@@ -40,6 +44,7 @@ body {
         background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
         -webkit-background-clip: text;
         color: transparent;
+       
 
         animation-name: moveInLeft;
         animation-duration: 1.5s;
