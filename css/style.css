@@ -383,6 +383,12 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+.footer {
+  background-color: #ff7730;
+  padding: 10rem 0;
+  font-size: 1.4rem;
+  color: rgba(211, 208, 193, 0.781); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
