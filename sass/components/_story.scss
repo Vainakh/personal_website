@@ -48,6 +48,8 @@
 
         overflow: hidden;
         border-radius: 50%;
+
+        border: 5px solid $color-secondary-dark;
     }
 
     &__img {
@@ -58,7 +60,9 @@
 
     &__text {
         transform: skewX(12deg);
-        color: $color-secondary-dark;
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
     &__caption {

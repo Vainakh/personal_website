@@ -7,6 +7,7 @@
    margin-left: 116px;
    display: block;
    
+   
    &__side {
         height: 52rem;
         transition: all .8s ease;
@@ -117,7 +118,7 @@
                 padding: 1rem;
 
                 &:not(:last-child) {
-                    border-bottom: 1px solid $color-grey-light-1;
+                    border-bottom: 1px solid $color-secondary-light;
                 }
             }
         }
