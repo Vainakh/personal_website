@@ -1,32 +1,12 @@
-// .section-stories {
-
-//     background-size: cover;
-//     clip-path: polygon(0 75vh,100% 0, 100% 100%, 0 100%);
-//     padding: 15rem;
-
-
-//     background-image: linear-gradient(
-//                     to right bottom,
-//                     rgba($color-white, 0.9),
-//                     rgba($color-white, 0.95)), 
-//                     url("../img/abstract.jpg");
-//     background-size: cover;
-//     clip-path: polygon(0 25%,100% 0, 100% 100%, 0 100%);
-// }
-
-
-
 
 .story {
     width: 75%;
     margin: 0 auto;
     box-shadow: 3 5rem 8rem rgba($color-black, .1);
     
-    background-image: linear-gradient(
-                    to right bottom,
-                    rgba(black, 0.7),
-                    rgba(black, 0.85)), 
-                    url("../img/abstract.jpg");
+    background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+    -webkit-background-clip: text;
+        color: transparent;
     background-size: cover;
     clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
 
@@ -49,7 +29,7 @@
         overflow: hidden;
         border-radius: 50%;
 
-        border: 5px solid $color-secondary-dark;
+        border: 5px solid $color-black;
     }
 
     &__img {

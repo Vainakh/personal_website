@@ -270,12 +270,13 @@ body {
     font-size: 6rem;
     font-weight: 100; }
   .card .image_git {
-    transform: scale(0.5);
-    top: 20rem;
+    top: -10rem;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); }
+    left: 39%;
+    transform: translate(-60%, -50%);
+    color: black;
+    transform: scale(3); }
 
 .composition {
   position: relative; }
@@ -333,7 +334,9 @@ body {
   width: 75%;
   margin: 0 auto;
   box-shadow: 3 5rem 8rem rgba(2, 2, 2, 0.1);
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.85)), url("../img/abstract.jpg");
+  background-image: linear-gradient(to right, #ffb900, #ff7730);
+  -webkit-background-clip: text;
+  color: transparent;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   border-radius: 3px;
@@ -351,7 +354,7 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    border: 5px solid #ff7730; }
+    border: 5px solid #020202; }
   .story__img {
     height: 100%;
     transform: scale(1.3);

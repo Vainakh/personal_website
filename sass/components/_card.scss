@@ -90,7 +90,7 @@
    }
 
    &__heading-span {
-      padding: 1rem 1.5rem;
+     padding: 1rem 1.5rem;
      box-decoration-break: clone; 
       &--1 {
           background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
@@ -151,13 +151,15 @@
    }
 
    .image_git {
-       transform: scale(.5);
-       top: 20rem;
+       top:-10rem;
        position: absolute;
        top: 50%;
-       left: 50%;
-       transform: translate(-50%, -50%);
+       left: 39%;
+       transform: translate(-60%, -50%);
+       color: black;
+       transform: scale(3);
    }
+
 
 
 }
