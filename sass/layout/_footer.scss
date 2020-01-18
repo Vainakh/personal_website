@@ -1,8 +1,9 @@
 .footer {
-    background-color: $color-secondary-dark;
+    // background-color: $color-black;
     padding: 10rem 0;
     font-size: 1.4rem;
-    color: $color-grey-light-1;
+    color: $color-secondary-dark;
+   
 
     &__logo-box {
         text-align: center;
@@ -12,5 +13,87 @@
     &__logo {
         width: 15rem;
         height: auto;
+    }
+
+    &__navigation {
+        border-bottom: 2px solid $color-secondary-dark;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: inline-block;
+    }
+
+    &__list {
+        list-style: none;
+        
+    }
+
+    &__item {
+       margin: 0 15rem;
+
+        display: inline-block;
+
+        &:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+    }
+
+    &__link-1 {
+        text-shadow: 2rem;
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+
+        
+        &:link, 
+        &:visited {
+            color: $color-secondary-dark;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .3s;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-secondary-light; 
+            transform: translateY(-2rem) scale(2);;
+            color: hidden;
+            letter-spacing: 1.1 rem;
+            color: black;
+        }
+    }
+
+    &__link-2 {
+        text-shadow: 2rem;
+        background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+
+        
+        &:link, 
+        &:visited {
+            color: $color-secondary-dark;
+            text-decoration: none;
+            text-transform: uppercase;
+            display: inline-block;
+            transition: all .3s;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-secondary-light;
+            transform: scale(1.05);
+           
+            color: hidden;
+            letter-spacing: 1.1 rem;
+        }
+    }
+
+    &__copyright {
+        border-bottom: 2px solid $color-secondary-dark;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        display: inline-block;
+        color: black;
     }
 }

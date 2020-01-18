@@ -6,7 +6,7 @@
     
     background-image: linear-gradient(to right, $color-secondary-light, $color-secondary-dark);
     -webkit-background-clip: text;
-        color: transparent;
+    color: transparent;
     background-size: cover;
     clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
 

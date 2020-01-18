@@ -34,12 +34,12 @@
             box-decoration-break: clone;
 
             &-1 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+                background-image: linear-gradient(to right bottom, $color-secondary-mid, $color-secondary-dark),
                                   url(../img/nat-5.jpg);
             }
 
             &-2 {
-                background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark),
+                background-image: linear-gradient(to right bottom, $color-secondary-mid, $color-secondary-dark),
                                   url(../img/nat-6.jpg);
             }
         }
@@ -68,12 +68,13 @@
 
         &--1 {
             background-image: linear-gradient(to right bottom, black, black),
-            url(../img/nat-5.jpg);
+            url(../img/memory.png);
+            
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, black, black),
-            url(../img/nat-6.jpg);
+            url(../img/meme.png);
         }
    }
 
@@ -93,11 +94,11 @@
      padding: 1rem 1.5rem;
      box-decoration-break: clone; 
       &--1 {
-          background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+          background-image: linear-gradient(to right bottom, rgba($color-secondary-mid, .85), rgba($color-secondary-dark, .85));
       }
 
       &--2 {
-          background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+          background-image: linear-gradient(to right bottom, rgba($color-secondary-mid, .85), rgba($color-secondary-dark, .85));
       }
    }
 

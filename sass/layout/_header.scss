@@ -4,6 +4,7 @@
                      rgba($color-black, 0.8),
                      rgba($color-black, 0.95)), 
                      url("../img/whitescreen.jpg");
+
     background-size: cover;
     background-position: top;
 
@@ -15,10 +16,13 @@
         left: 50%;
         transform: translate(-50%, -50%); */
         top: 10%;
-        left: 29%;
-        display: inline;
+        left: 24%;
+        display: inline-block;
+        font-size: 10rem;
+        font-weight: 400;
+        
         text-transform: uppercase;
-        letter-spacing: .3rem;
+        letter-spacing: .75rem;
         animation: moveInDown 1.5s ease-in;
     }
 
@@ -27,6 +31,7 @@
         margin-right: 5rem;
         margin-left: 5rem; 
         font-size: 1.5rem;
+        
     }
 
         &__nav-div-li-a {

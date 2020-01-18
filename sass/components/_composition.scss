@@ -9,7 +9,7 @@
         position: absolute;
         z-index: 10;
         transition: all .3s;
-        outline-offset: .5rem;
+        outline-offset: 1.5rem;
 
         &--p1 {
             left: 3%;
@@ -32,15 +32,15 @@
         // }
 
         &:hover {
-            outline: 1.5rem solid $color-black;
+            outline: .5rem solid $color-black;
             transform: scale(1.1) translateY(-.5rem);
-            box-shadow: 1 1rem 5rem rgba($color-black, .7);
+            box-shadow: 1 3rem 10rem rgba($color-secondary-light, .01);
             z-index: 20;
         }
 
     }
 
     &:hover &__photo:not(:hover) {
-       transform: scale(.01); 
+       transform: scale(.9); 
     }
 }
