@@ -39,7 +39,8 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box; }
@@ -303,13 +304,19 @@ body {
     font-size: 6rem;
     font-weight: 100; }
   .card .image_git {
-    top: -10rem;
     position: absolute;
-    top: 50%;
-    left: 39%;
+    top: 70%;
+    left: 40%;
     transform: translate(-60%, -50%);
     color: black;
-    transform: scale(3); }
+    transform: scale(1.5); }
+  .card .image_demo {
+    position: absolute;
+    top: -15%;
+    left: -29%;
+    transform: translate(-60%, -50%);
+    color: black;
+    transform: scale(0.21); }
 
 .composition {
   position: relative; }
@@ -532,7 +539,7 @@ body {
     background-image: linear-gradient(to right, #fad530, #ff7730);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 400;
+    font-size: 100;
     text-decoration: none; }
     .header__nav-div-li-a:hover {
       text-decoration: none; }

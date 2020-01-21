@@ -152,15 +152,27 @@
    }
 
    .image_git {
-       top:-10rem;
+       
        position: absolute;
-       top: 50%;
-       left: 39%;
+       top: 70%;
+       left: 40%;
        transform: translate(-60%, -50%);
        color: black;
-       transform: scale(3);
+       transform: scale(1.5);
    }
 
+   .image_demo {
+       position: absolute;
+       top: -15%;
+       left: -29%;
+       transform: translate(-60%, -50%);
+       color: black;
+       transform: scale(.21);
+
+       
+   }
+
+   
 
 
 }

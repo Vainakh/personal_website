@@ -30,7 +30,7 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
+                    <li class="navigation__item"><a href="#about" class="navigation__link">About</a></li>
                     <li class="navigation__item"><a href="#" class="navigation__link">Projects</a></li>
                     <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
                 </ul>
@@ -40,9 +40,10 @@
 
         <header class="header">
             <ul class="header__nav-div">
-                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#">About</a></li>
-                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#">Projects</a></li>
-                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#">Contact</a></li>
+                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#section-about">About</a></li>
+                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#section-features">Skills</a></li>
+                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#section-tours">Projects</a></li>
+                <li class="header__nav-div-li"><a class="header__nav-div-li-a" href="#section-stories">Contact</a></li>
             </ul>
 
 
@@ -63,7 +64,7 @@
         </header>
 
         <main>
-            <section class="section-about">
+            <section class="section-about" id="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         About Me
@@ -106,7 +107,7 @@
 
             </section>
 
-            <section class="section-features">
+            <section class="section-features" id="section-features">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Programming Skills
@@ -161,7 +162,7 @@
                     </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Rithm School required prework projects
@@ -197,14 +198,20 @@
                             <div class="card__side card__side--back card__side--back-1">
                                 <div class="card_cta">
                                     <div class="card__price-box">
-                                        <p class="card__price-only">Please, click on the image to proceed...</p>
+                                        <p class="card__price-only">Please, click on the relevant icon to proceed...</p>
                                         <p class="card__price-value"></p>
                                     </div>
+                                    <a title="Live Demo" href="https://adlan-memory-game.herokuapp.com/?">
+                                        <div class="image_demo">
+                                            <img src="img/icon-demo.png">
+                                        </div>
+                                    </a>
                                     <a title="GitHub Project Page" href="https://github.com/Vainakh/memory_game">
                                         <div class="image_git">
                                             <img src="img/github.svg">GitHub
                                         </div> 
-                                        </a>
+                                    </a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -241,6 +248,13 @@
                                         <p class="card__price-only">Please, click on the image to proceed...</p>
                                         <p class="card__price-value"></p>
                                     </div>
+
+                                    <a title="Live Demo" href="https://adlanyandarbiev.herokuapp.com/#">
+                                        <div class="image_demo">
+                                            <img src="img/icon-demo.png">
+                                        </div>
+                                    </a>
+                                    
                                     <a title="GitHub Project Page" href="https://github.com/Vainakh/meme_generator">
                                         <div class="image_git">
                                             <img src="img/github.svg">GitHub
@@ -270,7 +284,7 @@
 
             </section>
 
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <!-- <div class="bg-video"> -->
                     <!-- <video class="bg-video__content" autoplay muted loop>
                         <source src="img/arctic.mp4" type="video/mp4">
