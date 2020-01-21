@@ -6,7 +6,7 @@
     }   
 
     &__button {
-        background-color: $color-secondary-dark;
+        background-color: radial-gradient($color-secondary-light, $color-secondary-dark);
         height: 7rem;
         width: 7rem;
         position: fixed;

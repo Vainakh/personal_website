@@ -98,8 +98,6 @@ body {
       color: transparent;
       animation: moveInLeft 1.5s ease-out; }
     .heading-primary--sub-2 {
-      top: 300px;
-      left: 300px;
       display: block;
       font-size: 1.27rem;
       font-weight: 100;
@@ -131,6 +129,15 @@ body {
   color: transparent;
   transition: all .5s;
   letter-spacing: 0.2rem; }
+  .heading-secondary--sub {
+    display: block;
+    font-size: 1.27rem;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    background-image: linear-gradient(to right, #fad530, #ffb900);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: moveInLeft 1.5s ease-out; }
   .heading-secondary:hover {
     transform: scale(1.1) translate(0%, 10%);
     text-shadow: 0.5rem 1.5rem 2.5rem rgba(2, 2, 2, 0.3); }
@@ -527,12 +534,14 @@ body {
     color: transparent;
     font-size: 400;
     text-decoration: none; }
+    .header__nav-div-li-a:hover {
+      text-decoration: none; }
 
 .navigation__checkbox {
   display: none; }
 
 .navigation__button {
-  background-color: #ff7730;
+  background-color: radial-gradient(#fad530, #ff7730);
   height: 7rem;
   width: 7rem;
   position: fixed;

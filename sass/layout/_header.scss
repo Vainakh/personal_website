@@ -40,6 +40,11 @@
         color: transparent;
         font-size: 400;
         text-decoration: none;
+
+        &:hover {
+            text-decoration: none;
+           
+        }
     }
 
 }
