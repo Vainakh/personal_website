@@ -1,3 +1,4 @@
+
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -61,6 +62,10 @@ body {
   background-image: linear-gradient(to right, #fad530, #ff7730);
   -webkit-background-clip: text;
   color: transparent; }
+
+h1.heading-primary{
+  /* margin: 0 0 50px 50px; */
+}
 
 .heading-primary {
   color: #ff7730;
@@ -182,7 +187,7 @@ body {
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
-  color: #ff7730;
+  color: black;
   display: inline-block;
   text-decoration: none;
   border-bottom: 0.1rem solid #ff7730;
@@ -215,8 +220,12 @@ body {
   perspective: 150rem;
   position: relative;
   height: 52rem;
-  margin-left: 116px;
-  display: block; }
+  margin-left: 50px;
+  display: block;
+  margin-right: 123px;
+  z-index: 10000;
+}
+
   .card__side {
     height: 52rem;
     transition: all .8s ease;
@@ -256,9 +265,13 @@ body {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, black, black), url(../img/memory.png); }
+      background-image: linear-gradient(to right bottom, black, black), url(../img/landscaper.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, black, black), url(../img/meme.png); }
+      background-image: linear-gradient(to right bottom, black, black), url(../img/yowlp.jpg
+      ); }
+    .card__picture--3 {
+      background-image: linear-gradient(to right bottom, black, black), url(../img/rootstock.jpg
+      ); }
   .card__heading {
     font-size: 2.5rem;
     font-weight: 300;
@@ -346,6 +359,7 @@ body {
     transform: scale(0.9); }
 
 .feature-box {
+  
   background-color: rgba(2, 2, 2, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -371,6 +385,8 @@ body {
     color: transparent; }
 
 .story {
+  display: flex;
+  flex-direction: column;
   width: 75%;
   margin: 0 auto;
   box-shadow: 3 5rem 8rem rgba(2, 2, 2, 0.1);
@@ -385,9 +401,14 @@ body {
   font-size: 1.6rem;
   transform: skewX(-12deg); }
   .story__shape {
-    width: 15rem;
-    height: 15rem;
-    float: left;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, 10%);
+    margin-top: -50px;
+    width: 23rem;
+    height: 23rem;
+    float: center;
     shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transform: translate(-3rem) skewX(12deg);
@@ -395,11 +416,18 @@ body {
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid #020202; }
+
+  /* img.story__img {
+    height: 150px;
+    width: auto;
+  } */
   .story__img {
-    height: 100%;
+    height: 95%;
+    margin-top: 35px;
     transform: scale(1.3);
     transition: all .5s; }
   .story__text {
+    margin-top:50px;
     transform: skewX(12deg);
     background-image: linear-gradient(to right, #fad530, #ff7730);
     -webkit-background-clip: text;
@@ -486,7 +514,7 @@ body {
     color: black; }
 
 .row {
-  max-width: 114rem;
+  max-width: 132rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -582,8 +610,9 @@ body {
   transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1); }
 
 .navigation__list {
+  /* background-image: radial-gradient(#fad530, #ff7730); */
   position: absolute;
-  top: 50%;
+  top: 41%;
   left: 50%;
   transform: translate(-50%, -50%);
   list-style: none;
@@ -592,6 +621,10 @@ body {
 
 .navigation__item {
   margin: 5rem; }
+
+.navigation__item:visited {
+  margin: 5rem;
+}
 
 .navigation__link:link, .navigation__link:visited {
   display: inline-block;
@@ -678,3 +711,74 @@ body {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   margin-top: -40rem; }
+
+  .resume {
+  /* background-image: linear-gradient(to right, #fad530, #ff7730);
+  -webkit-background-clip: text; */
+  padding-top: 20px;
+  font-size: 14px;
+   color:#ff7730;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transform: scale(1.3);
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 0 30px;
+    z-index: 10000;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 0 30px;
+  }
+
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+    margin: 0 30px;
+  }
+
+  .fa-github{
+    background: #55ACEE;
+    color: white;
+    margin: 0 30px;
+  }
+
+  .resume-img {
+    height: 950px;
+    width: auto;
+    overflow: scroll;
+  }
+
+  .resume-img-container {
+    z-index: -1000;
+  }
+
+  img.resume-img {
+    z-index: -1000;
+  }
+
+  *::after {
+    z-index: 20000;
+  }
+
