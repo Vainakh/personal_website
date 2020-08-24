@@ -63,10 +63,6 @@ body {
   -webkit-background-clip: text;
   color: transparent; }
 
-h1.heading-primary{
-  /* margin: 0 0 50px 50px; */
-}
-
 .heading-primary {
   color: #ff7730;
   text-transform: uppercase;
